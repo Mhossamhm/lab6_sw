@@ -10,7 +10,7 @@ class TestAdditionFunction(unittest.TestCase):
         self.assertEqual(add_num(-9, -2), -11)
 
     def test_float_and_integer(self):
-        self.assertEqual(add_num(2.2, 2), 4.5)
+        self.assertEqual(add_num(2.2, 2), 4.2)
 
     def test_zero(self):
         self.assertEqual(add_num(0, 8), 8)
